@@ -12,7 +12,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        buildUI()
+        
+    }
+    
+    private func buildUI() {
+        let button = UIButton.buttonForAddingAnnotation()
+            .addToParent(view: self.view)
+            .centerX(in: self.view)
+            .centerY(in: self.view)
+            .setHeight(Height: 30)
+            .setWidth(width: 150)
+        button.addTarget(self, action: #selector(testButton), for: .touchUpInside)
+        
+    }
+    
+    @objc func testButton() {
+        print("Button pressed.")
     }
 
 

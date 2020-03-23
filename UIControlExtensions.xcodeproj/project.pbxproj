@@ -13,6 +13,8 @@
 		CBC220CC2428497400D331C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC220CA2428497400D331C5 /* Main.storyboard */; };
 		CBC220CE2428497600D331C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC220CD2428497600D331C5 /* Assets.xcassets */; };
 		CBC220D12428497600D331C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBC220CF2428497600D331C5 /* LaunchScreen.storyboard */; };
+		CBC220D924284A1900D331C5 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC220D824284A1900D331C5 /* UIButton+Extensions.swift */; };
+		CBC220DB24284CE100D331C5 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC220DA24284CE100D331C5 /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CBC220CD2428497600D331C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBC220D02428497600D331C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBC220D22428497600D331C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBC220D824284A1900D331C5 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		CBC220DA24284CE100D331C5 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				CBC220C42428497400D331C5 /* AppDelegate.swift */,
 				CBC220C62428497400D331C5 /* SceneDelegate.swift */,
 				CBC220C82428497400D331C5 /* ViewController.swift */,
+				CBC220D824284A1900D331C5 /* UIButton+Extensions.swift */,
+				CBC220DA24284CE100D331C5 /* UIView+Extensions.swift */,
 				CBC220CA2428497400D331C5 /* Main.storyboard */,
 				CBC220CD2428497600D331C5 /* Assets.xcassets */,
 				CBC220CF2428497600D331C5 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBC220C92428497400D331C5 /* ViewController.swift in Sources */,
+				CBC220D924284A1900D331C5 /* UIButton+Extensions.swift in Sources */,
+				CBC220DB24284CE100D331C5 /* UIView+Extensions.swift in Sources */,
 				CBC220C52428497400D331C5 /* AppDelegate.swift in Sources */,
 				CBC220C72428497400D331C5 /* SceneDelegate.swift in Sources */,
 			);
